@@ -1,0 +1,60 @@
+        h1{
+            color:orange;
+            font-size: 65px;
+            font-family: sans-serif;
+        }
+        h2{
+            color: green;
+        }
+        body{
+            background-color:white;
+            font-size: 16px;
+        }
+
+        #darcor{
+            background-color: rgb(90, 89, 148);
+            font-weight: 600px;
+        }
+        #linkedin{
+            background-color: rgb(190, 190, 190);
+        }
+        .lista{ 
+            background-color: black;
+            background-color: rgb(129, 129, 129)
+        }
+        .pru{
+            background-color: paleturquoise;
+            font-weight: bold;
+            font-style: italic;
+            line-height: 40px;
+            text-align:center;
+        }
+        p{
+            font-family: Helverica, sans-serif;
+        }
+        #interno{
+            background-color: burlywood;
+        }
+        #ole{
+            background-color: rgb(161, 152, 112);
+        }
+        .l1{
+            background-color: yellow;
+            color:darkgoldenrod;
+        }
+        .l2{
+            background-color:tomato;
+            color:darkorange;
+        }
+        .l3{
+            background-color:brown;
+            color: maroon;
+        } 
+        .l4{
+            background-color:goldenrod;
+            color: rgb(92, 64, 13);
+        }
+        .l5{
+            background-color:indigo;
+            color: rebeccapurple;
+        }

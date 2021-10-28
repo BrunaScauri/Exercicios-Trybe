@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> <!--Aqui contém as configurações da página.-->
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo HTML.</title>
-    <!--Estilizando todas as tags h2 e bg e colorindo o bg de um paragrafo-
-    modificar o tamanho do h1 para 65px, texto do h1 para laranja
-cor de fundo da ol e classe paramudar a cor da tag e p e ul ao mesmo tempo-->
-    <style>
-        h1{
-            color:orange;
-        }
-        h2{
-            color: green
-        }
-        body{
-            background-color:rgb(255, 400, 200);
-        }
+    <title>Aprendendo HTML 3.2.</title>
+    <!-- 
+ele usa a primeira fonte e na falta desa tenta usar a segunda, caso contrario ele ignora
+"em é relativo,nesse caso, ao tamanho que está no body. 2em é 2x 20, pois é esse o tamanho
+da fonte no body."
+font-style, line height, text-align e text-decoration
+trocar a cor de cada item da lista para seu correspondente no texto
 
-        #darcor{
-            background-color: purple;
-        }
-        #linkedin{
-            background-color: lightskyblue;
-        }
-        .lista{ 
-            background-color: black;
-            color:blanchedalmond;
-        }
-        .pru{
-            background-color: paleturquoise;
-        }
-    </style>
+fazer um portfolio web com: fontes diferentes para meu nome e descrições
+cor de bg
+alterar estilo de tags para nacionalidade e estado onde moro
+tamanho diferente na lista de habilidades,uma classe para cada elemento;
+-->
+<link rel="stylesheet" type="text/css" href="style.css">    
 </head>
 <body>
-    <!--Tags podem ter fechamento ou não.--> 
-    <nomeTag atributo="valor">
-        conteúdo da tag
-    </nomeTag>
     <h1>Header 01.</h1>
     <h2>Header 02.</h2>
-    <!--Parágrafo-->
-    <p> Esse é o parágrafo. Para quebrar uma linha, é preciso usar o comando <br> "br", e assim 
-    o código passa para a linha debaixo. Para dar ênfase, se usa <strong>o comando "strong".</strong></p>
+    <p> Esse é o parágrafo.</p>
     <ul class="pru">
-        <li>Esse é o layout de uma linha não ordenada.</li>
-        <li>CSS</li>
-        <li>Posicionamento em CSS</li>
-        <li>HTML semântico.</li>
-        <li>JavaScript</li>
-        <li>DOM</li>
+        <li class="l1">JavaScript</li>
+        <li class="l2">CSS</li>
+        <li class="l3">Posicionamento em CSS</li>
+        <li class="l4">HTML semântico.</li>
+        <li class="l5">DOM</li>
     </ul>
-    <ol>
+    <ol id="ole">
         <li>E esse é o layout de uma lista ordenada.</li>
         <li>Por ser ordenada, ela enumera os elementos.</li>
     </ol>
@@ -110,6 +88,15 @@ cor de fundo da ol e classe paramudar a cor da tag e p e ul ao mesmo tempo-->
     <br>
     <br>
     <p id="interno">O link interno permite referenciar a página onde este se encontra.</p>
-    <!-- img, alt e width, titulo nos outros comandos -->
+    <p>Lista de desafios para esta página:</p>
+    <ol>
+        <li>Modificar a família do h1 para sans-serif;</li>
+        <li>Deixar algum parágrafo com font-weight 600;</li>
+        <li>Modificar o font-size do body para 16px;</li>
+        <li>Colocar o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body;</li>
+        <li>Colocar todo o CSS usado em uma página avulsa;</li>
+        <li>Explorar as propriedades font-style, line-height, text-align e text-decoration;</li>
+        <li>Trocar a cor de fundo de cada item da lista para a cor correspondente ao texto</li>
+    </ol>  
 </body>
 </html>
