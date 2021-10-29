@@ -1,0 +1,38 @@
+h1{
+    color:orange;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+h2{
+    color: green;
+}
+body{
+    background-color:white;
+    font-size: 16px;
+}
+
+#darcor{
+    background-color: rgb(90, 89, 148);
+    font-weight: 600px;
+}
+#linkedin{
+    background-color: rgb(190, 190, 190);
+}
+.lista{ 
+    background-color: black;
+    background-color: rgb(129, 129, 129)
+}
+.pru{
+    background-color: paleturquoise;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align:center;
+}
+#ole{
+    background-color: rgb(161, 152, 112);
+}
+.l1{
+    background-color: yellow;
+    color:darkgoldenrod;
+}
